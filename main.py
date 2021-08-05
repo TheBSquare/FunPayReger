@@ -4,7 +4,6 @@ from logic.utils import generate_username
 from logic.database import Db
 from threading import Thread
 from datetime import datetime
-from secret import proxy
 
 
 def account_checker(accounts):
@@ -13,37 +12,46 @@ def account_checker(accounts):
     print(f'Total: {total}')
     while not stop:
         for account in accounts:
-            if not account.steps["working"]["status"]:
-                if account in temp:
-                    last_key = list(account.steps.keys())[-1]
-                    s = f'{temp[account]["number"]}.{datetime.fromtimestamp(time.time()).strftime("%m/%d/%Y, %H:%M:%S")}' \
-                        f'{account.email.email} - {account.username} - {account.password} - {last_key} - {account.steps[last_key]}'
+            if account.username in temp:
+                for step_key in account.steps.copy():
+                    if step_key not in temp[account.username] or account.steps[step_key]["status"] != temp[account.username][step_key]["status"]:
+                        temp[account.username][step_key] = account.steps[step_key]
+                        s = f'{temp[account.username]["number"]}.{datetime.fromtimestamp(time.time()).strftime("%m/%d/%Y-%H:%M.%S")} - ' \
+                            f'{account.email.email} - {account.username} - {account.password} - {step_key} - {temp[account.username][step_key]}'
+                        with open("logs.txt", 'a') as f:
+                            f.write(f'{s}\n')
+                            f.close()
+                        print(s)
 
-                    with open("logs.txt", 'a') as f:
-                        f.write(s)
-                        f.close()
-                    print(s)
-                    del temp[account]
-                continue
-            elif account not in temp:
-                temp[account] = {"number": total}
-                total -= 1
+                if account.steps["working"]["status"] == "error" or account.steps["working"]["status"] == "finished":
+                    del temp[account.username]
 
-            for step_key in account.steps.copy():
-                if step_key not in temp[account] or account.steps[step_key]["status"] != temp[account][step_key]["status"]:
-                    temp[account][step_key] = account.steps[step_key]
-                    s = f'{temp[account]["number"]}. {datetime.fromtimestamp(time.time()).strftime("%m/%d/%Y, %H:%M:%S")} - ' \
-                        f'{account.email.email} - {account.username} - {account.password} - {step_key} - {temp[account][step_key]}'
-                    with open("logs.txt", 'a') as f:
-                        f.write(s)
-                        f.close()
-                    print(s)
+            else:
+                if account.steps["working"]["status"] == "waiting":
+                    pass
+                elif account.steps["working"]["status"] == 'ok' and account.username not in temp:
+                    temp[account.username] = {"number": total}
+                    total -= 1
 
 
 def main():
+
+    actions = {
+        "Reg FunPay": 1,
+        "Reg MailRu": 2
+    }
+
+    global stop
     with open("email.txt", 'r') as f:
         mails = [data.replace('\n', '').split(':') for data in f.readlines()]
         f.close()
+
+    proxy = Proxy(
+        ip="p.webshare.io",
+        port="80",
+        username="xemhxukj-rotate",
+        password="3ddt7kiqtlca"
+    )
 
     accounts = []
     db = Db()
@@ -74,10 +82,10 @@ def main():
     thread.start()
 
     manager = RegistrationManager(accounts=accounts, db=db)
-    manager.start_registration(2)
+    manager.start_registration(1)
+    stop = True
 
 
 if __name__ == '__main__':
     stop = False
-    #os.chmod(driver_path, 755)
     main()

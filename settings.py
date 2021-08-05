@@ -9,3 +9,5 @@ error_pictures_path = os.path.join(root_path, 'resources', 'errors')
 driver_path = os.path.join(root_path, "resources", "drivers", "chromedriver")
 
 database_path = os.path.join(root_path, "resources", "funpay.db")
+
+email_logs = os.path.join(root_path, "resources", "logs", "email_logs.txt")

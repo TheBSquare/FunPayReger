@@ -11,7 +11,7 @@ def main():
             status = account_data["status"]
             if status > 0:
                 db.update_account(account, status=-1, token=token)
-                f.write(f'{account.email.full_mail};{account.username};{account.password}\n')
+                f.write(f'{account.email.email};{account.username};{account.password};{status}\n')
         f.close()
 
     db.commit_connection(token)

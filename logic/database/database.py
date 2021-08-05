@@ -37,9 +37,7 @@ class Db(metaclass=SingletonMeta):
         cursor.close()
 
         for row in data:
-            email_name, domain = row[0].split("@")
-
-            email = Email(email=email_name, domain=domain, password=row[2])
+            email = Email(email=row[0], domain='mail.ru', password=row[2])
             account = Account(username=row[1], password=email.password, email=email)
 
             yield {"account": account, "status": row[-1]}
