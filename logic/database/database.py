@@ -56,9 +56,9 @@ class Db(metaclass=SingletonMeta):
         cursor.close()
 
         if not data is None:
-            email_name, domain = data[0].split("@")
+            email = data[0]
 
-            email = Email(email=email_name, domain=domain, password=data[2])
+            email = Email(email=email, domain="mail.ru", password=data[2])
             account = Account(username=data[1], password=email.password, email=email)
 
             return {"account": account, "status": data[-1]}

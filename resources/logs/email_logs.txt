@@ -1,124 +1,36 @@
-94.08/05/2021-13:38.25 - kesha.nosachva.77@bk.ru - LXOCi5oia-i3 - working - {'status': 'ok'}
-94.08/05/2021-13:38.25 - kesha.nosachva.77@bk.ru - LXOCi5oia-i3 - profile_path - {'status': 'ok', 'profile_path': 'D:\\projects\\funpay\\resources\\profiles\\5', 'elapsed': 0.0}
-94.08/05/2021-13:38.25 - kesha.nosachva.77@bk.ru - LXOCi5oia-i3 - init_driver - {'status': 'loading'}
-94.08/05/2021-13:38.47 - kesha.nosachva.77@bk.ru - LXOCi5oia-i3 - init_driver - {'status': 'ok', 'driver': <undetected_chromedriver.v2.Chrome (session="238e872eae9515f4251a1092610185f8")>, 'elapsed': 21.280292749404907}
-94.08/05/2021-13:38.47 - kesha.nosachva.77@bk.ru - LXOCi5oia-i3 - authorization - {'status': 'loading'}
-94.08/05/2021-13:38.59 - kesha.nosachva.77@bk.ru - LXOCi5oia-i3 - authorization - {'status': 'ok', 'wait': <selenium.webdriver.support.wait.WebDriverWait (session="238e872eae9515f4251a1092610185f8")>, 'elapsed': 12.3838951587677}
-94.08/05/2021-13:38.59 - kesha.nosachva.77@bk.ru - LXOCi5oia-i3 - activate_imap - {'status': 'loading'}
-94.08/05/2021-13:39.15 - kesha.nosachva.77@bk.ru - h5CNlmZZyXVM4C4LDD9S - activate_imap - {'status': 'ok', 'elapsed': 4.104390859603882}
-94.08/05/2021-13:39.15 - kesha.nosachva.77@bk.ru - h5CNlmZZyXVM4C4LDD9S - close_driver - {'status': 'loading'}
-94.08/05/2021-13:39.15 - kesha.nosachva.77@bk.ru - h5CNlmZZyXVM4C4LDD9S - close_driver - {'status': 'ok', 'elapsed': 0.31502437591552734}
-94.08/05/2021-13:39.15 - kesha.nosachva.77@bk.ru - h5CNlmZZyXVM4C4LDD9S - remove_profile - {'status': 'loading'}
-94.08/05/2021-13:40.20 - kesha.nosachva.77@bk.ru - h5CNlmZZyXVM4C4LDD9S - remove_profile - {'status': 'ok', 'elapsed': 64.21942901611328}
-93.08/05/2021-13:40.20 - ravigeonox3wt43@bk.ru - 8rbowrwwI0 - working - {'status': 'ok'}
-93.08/05/2021-13:40.20 - ravigeonox3wt43@bk.ru - 8rbowrwwI0 - profile_path - {'status': 'ok', 'profile_path': 'D:\\projects\\funpay\\resources\\profiles\\5', 'elapsed': 0.0}
-93.08/05/2021-13:40.20 - ravigeonox3wt43@bk.ru - 8rbowrwwI0 - init_driver - {'status': 'loading'}
-93.08/05/2021-13:40.41 - ravigeonox3wt43@bk.ru - 8rbowrwwI0 - init_driver - {'status': 'ok', 'driver': <undetected_chromedriver.v2.Chrome (session="c3eac9b8a206d9eaad8b85fe61fbe86c")>, 'elapsed': 21.086625814437866}
-93.08/05/2021-13:40.41 - ravigeonox3wt43@bk.ru - 8rbowrwwI0 - authorization - {'status': 'loading'}
-93.08/05/2021-13:40.55 - ravigeonox3wt43@bk.ru - 8rbowrwwI0 - authorization - {'status': 'ok', 'wait': <selenium.webdriver.support.wait.WebDriverWait (session="c3eac9b8a206d9eaad8b85fe61fbe86c")>, 'elapsed': 13.729265451431274}
-93.08/05/2021-13:40.55 - ravigeonox3wt43@bk.ru - 8rbowrwwI0 - activate_imap - {'status': 'loading'}
-93.08/05/2021-13:40.56 - ravigeonox3wt43@bk.ru - 8rbowrwwI0 - activate_imap - {'status': 'error', 'description': 'Message: element click intercepted: Element <div class="ph-project ph-project__account svelte-a0l97g" tabindex="0" aria-label="ravigeonox3wt43@bk.ru" data-testid="whiteline-account">...</div> is not clickable at point (1809, 18). Other element would receive the click: <div class="background-0-2-7"></div>\n  (Session info: chrome=92.0.4515.131)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x00B93733+2504499]\n\tOrdinal0 [0x00B2C401+2081793]\n\tOrdinal0 [0x00A32628+1058344]\n\tOrdinal0 [0x00A62DEE+1256942]\n\tOrdinal0 [0x00A610EE+1249518]\n\tOrdinal0 [0x00A5EF1F+1240863]\n\tOrdinal0 [0x00A5DE18+1236504]\n\tOrdinal0 [0x00A53767+1193831]\n\tOrdinal0 [0x00A75E83+1334915]\n\tOrdinal0 [0x00A53586+1193350]\n\tOrdinal0 [0x00A75F6A+1335146]\n\tOrdinal0 [0x00A84CDB+1395931]\n\tOrdinal0 [0x00A75D4B+1334603]\n\tOrdinal0 [0x00A522B4+1188532]\n\tOrdinal0 [0x00A53149+1192265]\n\tGetHandleVerifier [0x00D0FB8C+1512252]\n\tGetHandleVerifier [0x00DBB0DF+2214031]\n\tGetHandleVerifier [0x00C14BC3+484211]\n\tGetHandleVerifier [0x00C13E69+480793]\n\tOrdinal0 [0x00B3218D+2105741]\n\tOrdinal0 [0x00B366E8+2123496]\n\tOrdinal0 [0x00B36827+2123815]\n\tOrdinal0 [0x00B3FB73+2161523]\n\tBaseThreadInitThunk [0x7559FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x76FE7A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x76FE7A4E+238]\n', 'elapsed': 1.264702558517456}
-93.08/05/2021-13:40.56 - ravigeonox3wt43@bk.ru - 8rbowrwwI0 - close_driver - {'status': 'loading'}
-92.08/05/2021-13:41.51 - safonova.tikhon@inbox.ru - pEfO6iKqeV - working - {'status': 'ok'}
-92.08/05/2021-13:41.51 - safonova.tikhon@inbox.ru - pEfO6iKqeV - profile_path - {'status': 'ok', 'profile_path': 'D:\\projects\\funpay\\resources\\profiles\\5', 'elapsed': 0.0}
-92.08/05/2021-13:41.51 - safonova.tikhon@inbox.ru - pEfO6iKqeV - init_driver - {'status': 'loading'}
-92.08/05/2021-13:42.13 - safonova.tikhon@inbox.ru - pEfO6iKqeV - init_driver - {'status': 'ok', 'driver': <undetected_chromedriver.v2.Chrome (session="3d050e5c26dc06df1bc308f69101dc98")>, 'elapsed': 21.053447008132935}
-92.08/05/2021-13:42.13 - safonova.tikhon@inbox.ru - pEfO6iKqeV - authorization - {'status': 'loading'}
-92.08/05/2021-13:42.25 - safonova.tikhon@inbox.ru - pEfO6iKqeV - authorization - {'status': 'ok', 'wait': <selenium.webdriver.support.wait.WebDriverWait (session="3d050e5c26dc06df1bc308f69101dc98")>, 'elapsed': 12.000782251358032}
-92.08/05/2021-13:42.25 - safonova.tikhon@inbox.ru - pEfO6iKqeV - activate_imap - {'status': 'loading'}
-92.08/05/2021-13:42.38 - safonova.tikhon@inbox.ru - EwfFV3wii27ILjJ2xioQ - activate_imap - {'status': 'ok', 'elapsed': 4.216370105743408}
-92.08/05/2021-13:42.38 - safonova.tikhon@inbox.ru - EwfFV3wii27ILjJ2xioQ - close_driver - {'status': 'loading'}
-92.08/05/2021-13:42.38 - safonova.tikhon@inbox.ru - EwfFV3wii27ILjJ2xioQ - close_driver - {'status': 'ok', 'elapsed': 0.26703572273254395}
-92.08/05/2021-13:42.38 - safonova.tikhon@inbox.ru - EwfFV3wii27ILjJ2xioQ - remove_profile - {'status': 'loading'}
-92.08/05/2021-13:43.34 - safonova.tikhon@inbox.ru - EwfFV3wii27ILjJ2xioQ - remove_profile - {'status': 'ok', 'elapsed': 55.50175380706787}
-91.08/05/2021-13:43.34 - rectireghetc8t@bk.ru - IlAOniKDFT - working - {'status': 'ok'}
-91.08/05/2021-13:43.34 - rectireghetc8t@bk.ru - IlAOniKDFT - profile_path - {'status': 'ok', 'profile_path': 'D:\\projects\\funpay\\resources\\profiles\\5', 'elapsed': 0.0}
-91.08/05/2021-13:43.34 - rectireghetc8t@bk.ru - IlAOniKDFT - init_driver - {'status': 'loading'}
-91.08/05/2021-13:43.54 - rectireghetc8t@bk.ru - IlAOniKDFT - init_driver - {'status': 'ok', 'driver': <undetected_chromedriver.v2.Chrome (session="31a5dbf7d57374dfe0af8f7d81b556df")>, 'elapsed': 20.117955684661865}
-91.08/05/2021-13:43.54 - rectireghetc8t@bk.ru - IlAOniKDFT - authorization - {'status': 'loading'}
-91.08/05/2021-13:44.09 - rectireghetc8t@bk.ru - IlAOniKDFT - authorization - {'status': 'ok', 'wait': <selenium.webdriver.support.wait.WebDriverWait (session="31a5dbf7d57374dfe0af8f7d81b556df")>, 'elapsed': 14.309891700744629}
-91.08/05/2021-13:44.09 - rectireghetc8t@bk.ru - IlAOniKDFT - activate_imap - {'status': 'loading'}
-91.08/05/2021-13:44.21 - rectireghetc8t@bk.ru - IgomfFzlLCjYg6PAB58A - activate_imap - {'status': 'ok', 'elapsed': 3.9884085655212402}
-91.08/05/2021-13:44.21 - rectireghetc8t@bk.ru - IgomfFzlLCjYg6PAB58A - close_driver - {'status': 'loading'}
-91.08/05/2021-13:44.22 - rectireghetc8t@bk.ru - IgomfFzlLCjYg6PAB58A - close_driver - {'status': 'ok', 'elapsed': 0.14302873611450195}
-91.08/05/2021-13:44.22 - rectireghetc8t@bk.ru - IgomfFzlLCjYg6PAB58A - remove_profile - {'status': 'loading'}
-91.08/05/2021-13:45.18 - rectireghetc8t@bk.ru - IgomfFzlLCjYg6PAB58A - remove_profile - {'status': 'ok', 'elapsed': 56.910725593566895}
-90.08/05/2021-13:45.19 - viposda-ru102963@bk.ru - 4EkouaOekp - working - {'status': 'ok'}
-90.08/05/2021-13:45.19 - viposda-ru102963@bk.ru - 4EkouaOekp - profile_path - {'status': 'ok', 'profile_path': 'D:\\projects\\funpay\\resources\\profiles\\5', 'elapsed': 0.0}
-90.08/05/2021-13:45.19 - viposda-ru102963@bk.ru - 4EkouaOekp - init_driver - {'status': 'loading'}
-90.08/05/2021-13:45.41 - viposda-ru102963@bk.ru - 4EkouaOekp - init_driver - {'status': 'ok', 'driver': <undetected_chromedriver.v2.Chrome (session="2d269227d332526d2a653c548afbbfca")>, 'elapsed': 21.500978708267212}
-90.08/05/2021-13:45.41 - viposda-ru102963@bk.ru - 4EkouaOekp - authorization - {'status': 'loading'}
-90.08/05/2021-13:45.55 - viposda-ru102963@bk.ru - 4EkouaOekp - authorization - {'status': 'ok', 'wait': <selenium.webdriver.support.wait.WebDriverWait (session="2d269227d332526d2a653c548afbbfca")>, 'elapsed': 14.585770606994629}
-90.08/05/2021-13:45.55 - viposda-ru102963@bk.ru - 4EkouaOekp - activate_imap - {'status': 'loading'}
-90.08/05/2021-13:46.09 - viposda-ru102963@bk.ru - NcSoJFBryk6Myk9RMyi4 - activate_imap - {'status': 'ok', 'elapsed': 3.9051640033721924}
-90.08/05/2021-13:46.09 - viposda-ru102963@bk.ru - NcSoJFBryk6Myk9RMyi4 - close_driver - {'status': 'loading'}
-90.08/05/2021-13:46.09 - viposda-ru102963@bk.ru - NcSoJFBryk6Myk9RMyi4 - close_driver - {'status': 'ok', 'elapsed': 0.2220165729522705}
-90.08/05/2021-13:46.09 - viposda-ru102963@bk.ru - NcSoJFBryk6Myk9RMyi4 - remove_profile - {'status': 'loading'}
-90.08/05/2021-13:47.05 - viposda-ru102963@bk.ru - NcSoJFBryk6Myk9RMyi4 - remove_profile - {'status': 'ok', 'elapsed': 55.646074295043945}
-89.08/05/2021-13:47.06 - ayaducheva@inbox.ru - Yk0DE6n2Ig - working - {'status': 'ok'}
-89.08/05/2021-13:47.06 - ayaducheva@inbox.ru - Yk0DE6n2Ig - profile_path - {'status': 'ok', 'profile_path': 'D:\\projects\\funpay\\resources\\profiles\\5', 'elapsed': 0.0}
-89.08/05/2021-13:47.06 - ayaducheva@inbox.ru - Yk0DE6n2Ig - init_driver - {'status': 'loading'}
-89.08/05/2021-13:47.27 - ayaducheva@inbox.ru - Yk0DE6n2Ig - init_driver - {'status': 'ok', 'driver': <undetected_chromedriver.v2.Chrome (session="204df88efa884485679fd69bc8d30793")>, 'elapsed': 20.923297882080078}
-89.08/05/2021-13:47.27 - ayaducheva@inbox.ru - Yk0DE6n2Ig - authorization - {'status': 'loading'}
-89.08/05/2021-13:47.41 - ayaducheva@inbox.ru - Yk0DE6n2Ig - authorization - {'status': 'ok', 'wait': <selenium.webdriver.support.wait.WebDriverWait (session="204df88efa884485679fd69bc8d30793")>, 'elapsed': 14.52176833152771}
-89.08/05/2021-13:47.41 - ayaducheva@inbox.ru - Yk0DE6n2Ig - activate_imap - {'status': 'loading'}
-89.08/05/2021-13:47.41 - ayaducheva@inbox.ru - Yk0DE6n2Ig - activate_imap - {'status': 'error', 'description': 'Message: no such element: Unable to locate element: {"method":"css selector","selector":"div.ph-sidebar.svelte-app5g7 > div > div > a:nth-child(3)"}\n  (Session info: chrome=92.0.4515.131)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x00B93733+2504499]\n\tOrdinal0 [0x00B2C401+2081793]\n\tOrdinal0 [0x00A32628+1058344]\n\tOrdinal0 [0x00A5CEBB+1232571]\n\tOrdinal0 [0x00A868F2+1403122]\n\tOrdinal0 [0x00A75EBA+1334970]\n\tOrdinal0 [0x00A84CDB+1395931]\n\tOrdinal0 [0x00A75D4B+1334603]\n\tOrdinal0 [0x00A522B4+1188532]\n\tOrdinal0 [0x00A53149+1192265]\n\tGetHandleVerifier [0x00D0FB8C+1512252]\n\tGetHandleVerifier [0x00DBB0DF+2214031]\n\tGetHandleVerifier [0x00C14BC3+484211]\n\tGetHandleVerifier [0x00C13E69+480793]\n\tOrdinal0 [0x00B3218D+2105741]\n\tOrdinal0 [0x00B366E8+2123496]\n\tOrdinal0 [0x00B36827+2123815]\n\tOrdinal0 [0x00B3FB73+2161523]\n\tBaseThreadInitThunk [0x7559FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x76FE7A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x76FE7A4E+238]\n', 'elapsed': 0.3010232448577881}
-89.08/05/2021-13:47.42 - ayaducheva@inbox.ru - Yk0DE6n2Ig - close_driver - {'status': 'loading'}
-88.08/05/2021-13:48.38 - yakov.somova.00@inbox.ru - -2uuua3eEERS - working - {'status': 'ok'}
-88.08/05/2021-13:48.38 - yakov.somova.00@inbox.ru - -2uuua3eEERS - profile_path - {'status': 'ok', 'profile_path': 'D:\\projects\\funpay\\resources\\profiles\\5', 'elapsed': 0.0}
-88.08/05/2021-13:48.38 - yakov.somova.00@inbox.ru - -2uuua3eEERS - init_driver - {'status': 'loading'}
-88.08/05/2021-13:48.59 - yakov.somova.00@inbox.ru - -2uuua3eEERS - init_driver - {'status': 'ok', 'driver': <undetected_chromedriver.v2.Chrome (session="69b6e3fcc11e8874e833502cf6cebe9c")>, 'elapsed': 20.09761118888855}
-88.08/05/2021-13:48.59 - yakov.somova.00@inbox.ru - -2uuua3eEERS - authorization - {'status': 'loading'}
-88.08/05/2021-13:49.13 - yakov.somova.00@inbox.ru - -2uuua3eEERS - authorization - {'status': 'ok', 'wait': <selenium.webdriver.support.wait.WebDriverWait (session="69b6e3fcc11e8874e833502cf6cebe9c")>, 'elapsed': 14.196249008178711}
-88.08/05/2021-13:49.13 - yakov.somova.00@inbox.ru - -2uuua3eEERS - activate_imap - {'status': 'loading'}
-88.08/05/2021-13:49.28 - yakov.somova.00@inbox.ru - e34nrqsxfdE4flGPQSUQ - activate_imap - {'status': 'ok', 'elapsed': 3.9927546977996826}
-88.08/05/2021-13:49.28 - yakov.somova.00@inbox.ru - e34nrqsxfdE4flGPQSUQ - close_driver - {'status': 'loading'}
-88.08/05/2021-13:49.29 - yakov.somova.00@inbox.ru - e34nrqsxfdE4flGPQSUQ - close_driver - {'status': 'ok', 'elapsed': 0.22301530838012695}
-88.08/05/2021-13:49.29 - yakov.somova.00@inbox.ru - e34nrqsxfdE4flGPQSUQ - remove_profile - {'status': 'loading'}
-88.08/05/2021-13:50.25 - yakov.somova.00@inbox.ru - e34nrqsxfdE4flGPQSUQ - remove_profile - {'status': 'ok', 'elapsed': 56.53615593910217}
-87.08/05/2021-13:50.26 - kuzinkova95@list.ru - yAaGP_Utka43 - working - {'status': 'ok'}
-87.08/05/2021-13:50.26 - kuzinkova95@list.ru - yAaGP_Utka43 - profile_path - {'status': 'ok', 'profile_path': 'D:\\projects\\funpay\\resources\\profiles\\5', 'elapsed': 0.0}
-87.08/05/2021-13:50.26 - kuzinkova95@list.ru - yAaGP_Utka43 - init_driver - {'status': 'loading'}
-87.08/05/2021-13:50.45 - kuzinkova95@list.ru - yAaGP_Utka43 - init_driver - {'status': 'ok', 'driver': <undetected_chromedriver.v2.Chrome (session="2e7681d09f960a0c52f9cf597eb20e48")>, 'elapsed': 19.552703380584717}
-87.08/05/2021-13:50.45 - kuzinkova95@list.ru - yAaGP_Utka43 - authorization - {'status': 'loading'}
-87.08/05/2021-13:50.57 - kuzinkova95@list.ru - yAaGP_Utka43 - authorization - {'status': 'ok', 'wait': <selenium.webdriver.support.wait.WebDriverWait (session="2e7681d09f960a0c52f9cf597eb20e48")>, 'elapsed': 12.136934518814087}
-87.08/05/2021-13:50.57 - kuzinkova95@list.ru - yAaGP_Utka43 - activate_imap - {'status': 'loading'}
-87.08/05/2021-13:50.58 - kuzinkova95@list.ru - yAaGP_Utka43 - activate_imap - {'status': 'error', 'description': 'Message: no such element: Unable to locate element: {"method":"css selector","selector":"div.ph-sidebar.svelte-app5g7 > div > div > a:nth-child(3)"}\n  (Session info: chrome=92.0.4515.131)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x00B93733+2504499]\n\tOrdinal0 [0x00B2C401+2081793]\n\tOrdinal0 [0x00A32628+1058344]\n\tOrdinal0 [0x00A5CEBB+1232571]\n\tOrdinal0 [0x00A868F2+1403122]\n\tOrdinal0 [0x00A75EBA+1334970]\n\tOrdinal0 [0x00A84CDB+1395931]\n\tOrdinal0 [0x00A75D4B+1334603]\n\tOrdinal0 [0x00A522B4+1188532]\n\tOrdinal0 [0x00A53149+1192265]\n\tGetHandleVerifier [0x00D0FB8C+1512252]\n\tGetHandleVerifier [0x00DBB0DF+2214031]\n\tGetHandleVerifier [0x00C14BC3+484211]\n\tGetHandleVerifier [0x00C13E69+480793]\n\tOrdinal0 [0x00B3218D+2105741]\n\tOrdinal0 [0x00B366E8+2123496]\n\tOrdinal0 [0x00B36827+2123815]\n\tOrdinal0 [0x00B3FB73+2161523]\n\tBaseThreadInitThunk [0x7559FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x76FE7A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x76FE7A4E+238]\n', 'elapsed': 0.9156894683837891}
-86.08/05/2021-13:51.12 - desyatkova.modest@bk.ru - pYnedmEw5j - working - {'status': 'ok'}
-86.08/05/2021-13:51.12 - desyatkova.modest@bk.ru - pYnedmEw5j - profile_path - {'status': 'ok', 'profile_path': 'D:\\projects\\funpay\\resources\\profiles\\5', 'elapsed': 0.0}
-86.08/05/2021-13:51.12 - desyatkova.modest@bk.ru - pYnedmEw5j - init_driver - {'status': 'loading'}
-86.08/05/2021-13:51.31 - desyatkova.modest@bk.ru - pYnedmEw5j - init_driver - {'status': 'ok', 'driver': <undetected_chromedriver.v2.Chrome (session="ab576d7b9e8fe578c496117a30ede81b")>, 'elapsed': 19.471418142318726}
-86.08/05/2021-13:51.31 - desyatkova.modest@bk.ru - pYnedmEw5j - authorization - {'status': 'loading'}
-86.08/05/2021-13:51.45 - desyatkova.modest@bk.ru - pYnedmEw5j - authorization - {'status': 'ok', 'wait': <selenium.webdriver.support.wait.WebDriverWait (session="ab576d7b9e8fe578c496117a30ede81b")>, 'elapsed': 14.137102842330933}
-86.08/05/2021-13:51.45 - desyatkova.modest@bk.ru - pYnedmEw5j - activate_imap - {'status': 'loading'}
-86.08/05/2021-13:51.45 - desyatkova.modest@bk.ru - pYnedmEw5j - activate_imap - {'status': 'error', 'description': 'Message: no such element: Unable to locate element: {"method":"css selector","selector":"div.ph-sidebar.svelte-app5g7 > div > div > a:nth-child(3)"}\n  (Session info: chrome=92.0.4515.131)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x00B93733+2504499]\n\tOrdinal0 [0x00B2C401+2081793]\n\tOrdinal0 [0x00A32628+1058344]\n\tOrdinal0 [0x00A5CEBB+1232571]\n\tOrdinal0 [0x00A868F2+1403122]\n\tOrdinal0 [0x00A75EBA+1334970]\n\tOrdinal0 [0x00A84CDB+1395931]\n\tOrdinal0 [0x00A75D4B+1334603]\n\tOrdinal0 [0x00A522B4+1188532]\n\tOrdinal0 [0x00A53149+1192265]\n\tGetHandleVerifier [0x00D0FB8C+1512252]\n\tGetHandleVerifier [0x00DBB0DF+2214031]\n\tGetHandleVerifier [0x00C14BC3+484211]\n\tGetHandleVerifier [0x00C13E69+480793]\n\tOrdinal0 [0x00B3218D+2105741]\n\tOrdinal0 [0x00B366E8+2123496]\n\tOrdinal0 [0x00B36827+2123815]\n\tOrdinal0 [0x00B3FB73+2161523]\n\tBaseThreadInitThunk [0x7559FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x76FE7A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x76FE7A4E+238]\n', 'elapsed': 0.22005009651184082}
-86.08/05/2021-13:51.45 - desyatkova.modest@bk.ru - pYnedmEw5j - close_driver - {'status': 'loading'}
-85.08/05/2021-13:52.38 - bobrik.makar@bk.ru - uAoytrT3RA9& - working - {'status': 'ok'}
-85.08/05/2021-13:52.38 - bobrik.makar@bk.ru - uAoytrT3RA9& - profile_path - {'status': 'ok', 'profile_path': 'D:\\projects\\funpay\\resources\\profiles\\5', 'elapsed': 0.0}
-85.08/05/2021-13:52.38 - bobrik.makar@bk.ru - uAoytrT3RA9& - init_driver - {'status': 'loading'}
-85.08/05/2021-13:52.59 - bobrik.makar@bk.ru - uAoytrT3RA9& - init_driver - {'status': 'ok', 'driver': <undetected_chromedriver.v2.Chrome (session="4e47239bbd6da02d1fb79f175c8fb72e")>, 'elapsed': 21.02592945098877}
-85.08/05/2021-13:52.59 - bobrik.makar@bk.ru - uAoytrT3RA9& - authorization - {'status': 'loading'}
-85.08/05/2021-13:53.12 - bobrik.makar@bk.ru - uAoytrT3RA9& - authorization - {'status': 'ok', 'wait': <selenium.webdriver.support.wait.WebDriverWait (session="4e47239bbd6da02d1fb79f175c8fb72e")>, 'elapsed': 12.558437585830688}
-85.08/05/2021-13:53.12 - bobrik.makar@bk.ru - uAoytrT3RA9& - activate_imap - {'status': 'loading'}
-85.08/05/2021-13:53.26 - bobrik.makar@bk.ru - QD47S86rNNYKN1decuzi - activate_imap - {'status': 'ok', 'elapsed': 4.017613172531128}
-85.08/05/2021-13:53.26 - bobrik.makar@bk.ru - QD47S86rNNYKN1decuzi - close_driver - {'status': 'loading'}
-85.08/05/2021-13:53.26 - bobrik.makar@bk.ru - QD47S86rNNYKN1decuzi - close_driver - {'status': 'ok', 'elapsed': 0.14300990104675293}
-85.08/05/2021-13:53.26 - bobrik.makar@bk.ru - QD47S86rNNYKN1decuzi - remove_profile - {'status': 'loading'}
-85.08/05/2021-13:54.23 - bobrik.makar@bk.ru - QD47S86rNNYKN1decuzi - remove_profile - {'status': 'ok', 'elapsed': 57.623591899871826}
-84.08/05/2021-13:54.24 - caotadeahb5354@mail.ru - TAAr2C4oyur& - working - {'status': 'ok'}
-84.08/05/2021-13:54.24 - caotadeahb5354@mail.ru - TAAr2C4oyur& - profile_path - {'status': 'ok', 'profile_path': 'D:\\projects\\funpay\\resources\\profiles\\5', 'elapsed': 0.0}
-84.08/05/2021-13:54.24 - caotadeahb5354@mail.ru - TAAr2C4oyur& - init_driver - {'status': 'loading'}
-84.08/05/2021-13:54.43 - caotadeahb5354@mail.ru - TAAr2C4oyur& - init_driver - {'status': 'ok', 'driver': <undetected_chromedriver.v2.Chrome (session="1610e03ed238a2f182c464e185c83487")>, 'elapsed': 18.973713397979736}
-84.08/05/2021-13:54.43 - caotadeahb5354@mail.ru - TAAr2C4oyur& - authorization - {'status': 'loading'}
-84.08/05/2021-13:54.56 - caotadeahb5354@mail.ru - TAAr2C4oyur& - authorization - {'status': 'ok', 'wait': <selenium.webdriver.support.wait.WebDriverWait (session="1610e03ed238a2f182c464e185c83487")>, 'elapsed': 13.172195196151733}
-84.08/05/2021-13:54.56 - caotadeahb5354@mail.ru - TAAr2C4oyur& - activate_imap - {'status': 'loading'}
-84.08/05/2021-13:55.10 - caotadeahb5354@mail.ru - 4diAMXikKbBV8ybgDr7S - activate_imap - {'status': 'ok', 'elapsed': 3.8921618461608887}
-84.08/05/2021-13:55.10 - caotadeahb5354@mail.ru - 4diAMXikKbBV8ybgDr7S - close_driver - {'status': 'loading'}
-84.08/05/2021-13:55.10 - caotadeahb5354@mail.ru - 4diAMXikKbBV8ybgDr7S - close_driver - {'status': 'ok', 'elapsed': 0.15769577026367188}
-84.08/05/2021-13:55.10 - caotadeahb5354@mail.ru - 4diAMXikKbBV8ybgDr7S - remove_profile - {'status': 'loading'}
-84.08/05/2021-13:56.06 - caotadeahb5354@mail.ru - 4diAMXikKbBV8ybgDr7S - remove_profile - {'status': 'ok', 'elapsed': 55.66851353645325}
-83.08/05/2021-13:56.06 - placitin-kuv4lp55@bk.ru - iIsIiAoY21a) - working - {'status': 'ok'}
-83.08/05/2021-13:56.06 - placitin-kuv4lp55@bk.ru - iIsIiAoY21a) - profile_path - {'status': 'ok', 'profile_path': 'D:\\projects\\funpay\\resources\\profiles\\5', 'elapsed': 0.0}
-83.08/05/2021-13:56.06 - placitin-kuv4lp55@bk.ru - iIsIiAoY21a) - init_driver - {'status': 'loading'}
-83.08/05/2021-13:56.10 - placitin-kuv4lp55@bk.ru - iIsIiAoY21a) - init_driver - {'status': 'ok', 'driver': <undetected_chromedriver.v2.Chrome (session="8c5989940620fa574dde140bbd88f19c")>, 'elapsed': 3.050902843475342}
-83.08/05/2021-13:56.10 - placitin-kuv4lp55@bk.ru - iIsIiAoY21a) - authorization - {'status': 'loading'}
+5.08/09/2021-13:36.06 - working - {'status': 'ok'} - self.email = 'Subahdar.Mantador.10101988@mail.ru' - self.password = 'uUURIj32)aaf' - self.temp_password = 'uUURIj32)aaf' - self.token = 'uUURIj32)aaf'
+5.08/09/2021-13:36.06 - profile_path - {'status': 'ok', 'profile_path': 'D:\\projects\\funpay\\resources\\profiles\\7', 'elapsed': 0.0} - self.email = 'Subahdar.Mantador.10101988@mail.ru' - self.password = 'uUURIj32)aaf' - self.temp_password = 'uUURIj32)aaf' - self.token = 'uUURIj32)aaf'
+5.08/09/2021-13:36.06 - init_driver - {'status': 'loading'} - self.email = 'Subahdar.Mantador.10101988@mail.ru' - self.password = 'uUURIj32)aaf' - self.temp_password = 'uUURIj32)aaf' - self.token = 'uUURIj32)aaf'
+5.08/09/2021-13:36.28 - init_driver - {'status': 'ok', 'driver': <undetected_chromedriver.v2.Chrome (session="326389e6040af97a0f9278aab08c8b19")>, 'elapsed': 21.78718066215515} - self.email = 'Subahdar.Mantador.10101988@mail.ru' - self.password = 'uUURIj32)aaf' - self.temp_password = 'uUURIj32)aaf' - self.token = 'uUURIj32)aaf'
+5.08/09/2021-13:36.28 - pre_reg - {'status': 'loading'} - self.email = 'Subahdar.Mantador.10101988@mail.ru' - self.password = 'uUURIj32)aaf' - self.temp_password = 'uUURIj32)aaf' - self.token = 'uUURIj32)aaf'
+5.08/09/2021-13:36.33 - pre_reg - {'status': 'ok', 'way': 'connect', 'elapsed': 5.035095930099487} - self.email = 'Subahdar.Mantador.10101988@mail.ru' - self.password = 'uUURIj32)aaf' - self.temp_password = 'uUURIj32)aaf' - self.token = 'uUURIj32)aaf'
+5.08/09/2021-13:36.48 - close_driver - {'status': 'loading'} - self.email = 'Subahdar.Mantador.10101988@mail.ru' - self.password = 'uUURIj32)aaf' - self.temp_password = 'uUURIj32)aaf' - self.token = 'uUURIj32)aaf'
+5.08/09/2021-13:36.48 - close_driver - {'status': 'ok', 'elapsed': 0.11600971221923828} - self.email = 'Subahdar.Mantador.10101988@mail.ru' - self.password = 'uUURIj32)aaf' - self.temp_password = 'uUURIj32)aaf' - self.token = 'uUURIj32)aaf'
+5.08/09/2021-13:36.48 - remove_profile - {'status': 'loading'} - self.email = 'Subahdar.Mantador.10101988@mail.ru' - self.password = 'uUURIj32)aaf' - self.temp_password = 'uUURIj32)aaf' - self.token = 'uUURIj32)aaf'
+5.08/09/2021-13:37.46 - remove_profile - {'status': 'ok', 'elapsed': 57.74335265159607} - self.email = 'Subahdar.Mantador.10101988@mail.ru' - self.password = 'uUURIj32)aaf' - self.temp_password = 'uUURIj32)aaf' - self.token = 'uUURIj32)aaf'
+4.08/09/2021-13:37.46 - working - {'status': 'ok'} - self.email = 'Sealine.Sequence.10151983@mail.ru' - self.password = 'uUURIj32)aaf' - self.temp_password = 'uUURIj32)aaf' - self.token = 'uUURIj32)aaf'
+4.08/09/2021-13:37.46 - profile_path - {'status': 'ok', 'profile_path': 'D:\\projects\\funpay\\resources\\profiles\\7', 'elapsed': 0.0} - self.email = 'Sealine.Sequence.10151983@mail.ru' - self.password = 'uUURIj32)aaf' - self.temp_password = 'uUURIj32)aaf' - self.token = 'uUURIj32)aaf'
+4.08/09/2021-13:37.46 - init_driver - {'status': 'loading'} - self.email = 'Sealine.Sequence.10151983@mail.ru' - self.password = 'uUURIj32)aaf' - self.temp_password = 'uUURIj32)aaf' - self.token = 'uUURIj32)aaf'
+4.08/09/2021-13:38.08 - init_driver - {'status': 'ok', 'driver': <undetected_chromedriver.v2.Chrome (session="a2f47e947826e2fede7ad0cd520fb5ae")>, 'elapsed': 22.108720541000366} - self.email = 'Sealine.Sequence.10151983@mail.ru' - self.password = 'uUURIj32)aaf' - self.temp_password = 'uUURIj32)aaf' - self.token = 'uUURIj32)aaf'
+4.08/09/2021-13:38.08 - pre_reg - {'status': 'loading'} - self.email = 'Sealine.Sequence.10151983@mail.ru' - self.password = 'uUURIj32)aaf' - self.temp_password = 'uUURIj32)aaf' - self.token = 'uUURIj32)aaf'
+4.08/09/2021-13:38.16 - pre_reg - {'status': 'ok', 'way': 'default', 'elapsed': 7.892366409301758} - self.email = 'Sealine.Sequence.10151983@mail.ru' - self.password = 'uUURIj32)aaf' - self.temp_password = 'uUURIj32)aaf' - self.token = 'uUURIj32)aaf'
+5.08/09/2021-23:05.51 - kolobovaakulina989@mail.ru - Wigglier1989 - SRHm4dY69 - working - {'status': 'ok'}
+5.08/09/2021-23:05.51 - kolobovaakulina989@mail.ru - Wigglier1989 - SRHm4dY69 - preparing - {'status': 'loading'}
+5.08/09/2021-23:05.51 - kolobovaakulina989@mail.ru - Wigglier1989 - SRHm4dY69 - preparing - {'status': 'error', 'description': "{'status': 'error', 'description': '[Errno 11001] getaddrinfo failed'}", 'elapsed': 0.032698631286621094}
+4.08/09/2021-23:05.51 - noma.sayre37093@mail.ru - Selp23101974 - bc81ezHcbAr - working - {'status': 'ok'}
+4.08/09/2021-23:05.51 - noma.sayre37093@mail.ru - Selp23101974 - bc81ezHcbAr - preparing - {'status': 'error', 'description': "{'status': 'error', 'description': '[Errno 11001] getaddrinfo failed'}", 'elapsed': 0.0010006427764892578}
+3.08/09/2021-23:05.51 - petrovageorgina9457@mail.ru - Sonorize1978 - nzUZJhl8BrK - working - {'status': 'ok'}
+3.08/09/2021-23:05.51 - petrovageorgina9457@mail.ru - Sonorize1978 - nzUZJhl8BrK - preparing - {'status': 'error', 'description': "{'status': 'error', 'description': '[Errno 11001] getaddrinfo failed'}", 'elapsed': 0.0010025501251220703}
+2.08/09/2021-23:05.51 - annansk1969@mail.ru - Scotfree1973 - HiKMIZErED6 - working - {'status': 'ok'}
+2.08/09/2021-23:05.51 - annansk1969@mail.ru - Scotfree1973 - HiKMIZErED6 - preparing - {'status': 'loading'}
+5.08/09/2021-23:24.02 - kolobovaakulina989@mail.ru - Wigglier1989 - SRHm4dY69 - working - {'status': 'ok'}
+5.08/09/2021-23:24.02 - kolobovaakulina989@mail.ru - Wigglier1989 - SRHm4dY69 - preparing - {'status': 'loading'}
+5.08/09/2021-23:24.02 - kolobovaakulina989@mail.ru - Wigglier1989 - SRHm4dY69 - preparing - {'status': 'error', 'description': "{'status': 'error', 'description': '[Errno 11001] getaddrinfo failed'}", 'elapsed': 0.04800677299499512}
+4.08/09/2021-23:24.02 - noma.sayre37093@mail.ru - Selp23101974 - bc81ezHcbAr - working - {'status': 'ok'}
+4.08/09/2021-23:24.02 - noma.sayre37093@mail.ru - Selp23101974 - bc81ezHcbAr - preparing - {'status': 'error', 'description': "{'status': 'error', 'description': '[Errno 11001] getaddrinfo failed'}", 'elapsed': 0.0010004043579101562}
+3.08/09/2021-23:24.02 - petrovageorgina9457@mail.ru - Sonorize1978 - nzUZJhl8BrK - working - {'status': 'ok'}
+3.08/09/2021-23:24.02 - petrovageorgina9457@mail.ru - Sonorize1978 - nzUZJhl8BrK - preparing - {'status': 'error', 'description': "{'status': 'error', 'description': '[Errno 11001] getaddrinfo failed'}", 'elapsed': 0.0}
+2.08/09/2021-23:24.02 - SokolovaVasilina8@mail.ru - Cruel5101973 - hi3LMT364R - working - {'status': 'ok'}
+2.08/09/2021-23:24.02 - SokolovaVasilina8@mail.ru - Cruel5101973 - hi3LMT364R - preparing - {'status': 'error', 'description': "{'status': 'error', 'description': '[Errno 11001] getaddrinfo failed'}", 'elapsed': 0.0}
+1.08/09/2021-23:24.02 - annansk1969@mail.ru - Scotfree1973 - HiKMIZErED6 - working - {'status': 'ok'}
+1.08/09/2021-23:24.02 - annansk1969@mail.ru - Scotfree1973 - HiKMIZErED6 - preparing - {'status': 'error', 'description': "{'status': 'error', 'description': '[Errno 11001] getaddrinfo failed'}", 'elapsed': 0.0010008811950683594}
